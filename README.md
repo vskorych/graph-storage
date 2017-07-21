@@ -68,7 +68,7 @@ This call adds the nodes to database
 {}
 ```
 ### Validation:
-If some of node already exit just update it with new parameters
+If some of node already exist just update it with new relation
 
 If one of parent nodes not exist we need to create this node with parent == null
 
