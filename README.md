@@ -356,7 +356,7 @@ it's return
 
 status 400
 ```
-{"error": "Loop relations not not allowed"
+{"error": "Loop relations not not allowed"}
 ```
 
 or we try to add node with loop to our existing schema 
@@ -380,5 +380,5 @@ it's return
 
 status 400
 ```
-{"error": "Loop relations not not allowed"
+{"error": "Loop relations not not allowed"}
 ```
