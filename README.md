@@ -349,6 +349,7 @@ POST /nodes
         }
     ]
 }
+```
 
 
 it's return
@@ -371,6 +372,7 @@ POST /nodes
         }
     ]
 }
+```
 
 ![simple graph](images/complex_graph_bad.png)
 
