@@ -1,7 +1,7 @@
-# Graph-three storage
+# Graph-tree storage
 
 ## Goal:
-Create Graph-three storage with API interface that implements 2 features inserting graphs nodes and getting graphs by any node.
+Create Graph-tree storage with API interface that implements 2 features inserting graphs nodes and getting graphs by any node.
 
 The application should give the ability to add one or more nodes with specified in them parents and to build from them chains.
 
