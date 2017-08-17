@@ -42,18 +42,15 @@ This call adds the nodes to database
     "type": "object",
     "properties": {
         "nodes": {
-            "type": "object",
-            "properties": {
-                "type": "array",
-                "items": {
-                    "type": "object",
-                    "properties": {
-                        "id": {
-                            "type": "string"
-                        },
-                        "parents": {
-                            "type": "string"
-                        }
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "parents": {
+                        "type": "string"
                     }
                 }
             }
@@ -70,10 +67,8 @@ This call adds the nodes to database
 ### Validation:
 If some of node already exist just update it with new relation
 
-If one of parent nodes not exist we need to create this node with parent == null
-
 ### Loop:
-The system should not to allow loops in the chains
+The system should not to allow create loops in the chains
 
 
 ## GET /threes/:node_id
